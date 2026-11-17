@@ -1,0 +1,33 @@
+{
+  "Version": 1,
+  "Name": "Мессенджеры в фоне",
+  "DefaultDelaySeconds": 3,
+  "WindowWaitSeconds": 30,
+  "ContinueOnError": true,
+  "Items": [
+    {
+      "Name": "Telegram",
+      "FilePath": "%APPDATA%\\Telegram Desktop\\Telegram.exe",
+      "Arguments": "",
+      "WorkingDirectory": "",
+      "Enabled": true,
+      "DelaySeconds": null,
+      "Monitor": "",
+      "WindowMode": "Normal",
+      "CloseWindowAfterLaunch": true,
+      "CloseDelaySeconds": 2
+    },
+    {
+      "Name": "Discord",
+      "FilePath": "%APPDATA%\\Microsoft\\Windows\\Start Menu\\Programs\\Discord Inc\\Discord.lnk",
+      "Arguments": "",
+      "WorkingDirectory": "",
+      "Enabled": true,
+      "DelaySeconds": null,
+      "Monitor": "",
+      "WindowMode": "Normal",
+      "CloseWindowAfterLaunch": true,
+      "CloseDelaySeconds": 3
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+**/bin/
+**/obj/
+/app/
+/publish/
+**/logs/
+**/last-profile.txt
+/profiles/*
+!/profiles/.gitkeep
+/tests/artifacts/
+/tests/ui-*/
+*.lnk
+*.user
+*.suo
+*.tmp
+.vs/
+.env
+.env.*
